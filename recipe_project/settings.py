@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-recipe-book-demo-key-change-in-production'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False # false in production
 
-ALLOWED_HOSTS = ["recipe-book-django.vercel.app",".vercel.app",]
+ALLOWED_HOSTS = ["localhost","127.0.0.1","recipe-book-django.vercel.app",".vercel.app",]
 
 
 # Application definition
